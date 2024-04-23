@@ -1,0 +1,36 @@
+body {
+  font-family: Arial;
+  background: rgb(231, 191, 204);
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+  color: blue;
+}
+
+h2 {
+  color: green;
+  font-style: italic;
+}
+
+h3 {
+  text-transform: uppercase;
+  color: white;
+  text-decoration: underline;
+}
+
+p {
+  color: red;
+  text-align: center;
+}
+
+ul {
+    text-align: left;
+    margin-left: -28px;
+}
+
+ol {
+    color: blue;
+    font-style: italic;
+}

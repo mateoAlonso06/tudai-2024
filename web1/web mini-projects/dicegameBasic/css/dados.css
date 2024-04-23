@@ -1,0 +1,63 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+    display: block;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 1rem;
+    background-color: white;
+}
+
+.boton {
+    font-size: 15px;
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 1rem 0.5rem;
+    cursor: pointer;
+}
+
+.game-container {
+    width: 60%;
+    height: 200px;
+    margin: 10rem auto;
+    background-color: green;
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.img-container,
+.btn-container {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.img-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.resultado {
+    background-color: lightblue;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0.1rem;
+    border: 1px solid black;
+}
+
+.ganador {
+    background-color: greenyellow;
+    text-transform: uppercase;
+}
+
+.perdedor {
+    background-color: red;
+    text-transform: lowercase;
+    color: white;
+}

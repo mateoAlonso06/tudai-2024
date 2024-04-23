@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="40ffe447-28e4-4006-a262-a93892ceb0a6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../.idea/Universidad.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../web1/teoria/U3 - JavaScript/img/dado1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../web1/teoria/U3 - JavaScript/img/dado2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../web1/teoria/U3 - JavaScript/img/dado3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../web1/teoria/U3 - JavaScript/img/dado4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../web1/teoria/U3 - JavaScript/img/dado5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../web1/teoria/U3 - JavaScript/img/dado6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../web1/teoria/U3 - JavaScript/img/lampara_off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../web1/teoria/U3 - JavaScript/img/lampara_on.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/AplicaDescuento/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/AplicaDescuento/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/AplicaDescuento/src/AplicaDescuento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/CarrefiveTicket/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/CarrefiveTicket/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/CarrefiveTicket/src/CarrefiveTicket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/CocienteDeUnEntero/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/CocienteDeUnEntero/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/CocienteDeUnEntero/src/CocienteDeUnEntero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/DeterminarEntero/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/DeterminarEntero/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/DeterminarEntero/src/DeterminarEntero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/FacturaLibreria/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/FacturaLibreria/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/FacturaLibreria/src/FacturaLibreria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/IncrementarEnteros/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/IncrementarEnteros/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/IncrementarEnteros/src/IncrementarEnteros.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/IngresarDos/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/IngresarDos/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/IngresarDos/src/IngresarDos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/PedirCinco/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/PedirCinco/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/PedirCinco/src/PedirCinco.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/PedirConstante/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/PedirConstante/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/PedirConstante/src/PedirConstante.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/PedirInfoPersonal/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/PedirInfoPersonal/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/PedirInfoPersonal/src/PedirInfoPersonal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/PedirReales/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/PedirReales/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/PedirReales/src/PedirReales.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/SupermarketSoberano/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/SupermarketSoberano/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/SupermarketSoberano/src/SupermarketSoberano.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/TablaDeVerdad/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/TablaDeVerdad/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/TablaDeVerdad/src/TablaDeVerdad.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/TiposDeDatos/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/TiposDeDatos/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/TiposDeDatos/src/TiposDeDatos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/VariablesDobles/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/VariablesDobles/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/VariablesDobles/src/VariablesDobles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../web1/practicos/tp1/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../web1/practicos/tp1/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../web1/practicos/tp1/deportes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../web1/practicos/tp1/diario.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../web1/practicos/tp1/ejercicio1.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../web1/practicos/tp1/ejercicio2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../web1/practicos/tp1/ejercicio3.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../web1/practicos/tp1/politicas.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../web1/practicos/tp1/recetaMaruca/maruca.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../web1/practicos/tp1/recetaMaruca/recetamaruca.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../web1/practicos/tp1/recetamaruca.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../web1/practicos/tp1p2/basico.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../web1/practicos/tp1p2/box-model.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../web1/teoria/U2-BoxModel/boxmodel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../web1/teoria/U2-BoxModel/css/styles.css" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2epVEPM0dFdgDMk8SHI4SJSyoXJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="40ffe447-28e4-4006-a262-a93892ceb0a6" name="Changes" comment="" />
+      <created>1712601394977</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712601394977</updated>
+    </task>
+    <servers />
+  </component>
+</project>

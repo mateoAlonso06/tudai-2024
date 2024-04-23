@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intro JS</title>
+  </head>
+  <body>
+    <div class="intro-container">
+      <p id="parrafo">soy un parrafo</p>
+
+      <label for="nombre">Nombre:</label>
+      <input
+        id="nombre"
+        name="nombre"
+        type="text"
+        placeholder="ingrese su nombre:"
+      />
+      <!-- mediante JS Inline con el evento onclick llamo a la funcion saludarCatedra -->
+      <button id="btn" onclick="saludarCatedra()">Saludar Catedra</button>
+    </div>
+
+    <br />
+
+    <div class="contador-container">
+      <button id="btn-contador">Contador</button>
+      <p>Se hicieron <span id="resultado">0</span> clicks</p>
+    </div>
+    <!--
+    - Existen varias formas de incluir un archivo js en nuestras paginas web. la más indica es añadir el archivo mediante la etiqueta script
+    - Una de las razones por las que la etiqueta script es incluida al final del body es para que primer cargo todo el contenido del DOM
+    -->
+    <!-- <script typeç="text/javascript" src="js/main.js"></script> -->
+    <script type="text/javascript" src="js/manipular-dom.js"></script>
+  </body>
+</html>

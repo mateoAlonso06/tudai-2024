@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- La etiqueta Head contiene nuestros metadatos asi como los links a otros archivos -->
+    <meta charset="UTF-8"> <!-- Esta etiqueta establece la codificacion en UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Esta etiqueta permite visualizar de forma correcta la pagina en distintos dispositivos -->
+    <link rel="stylesheet" href="./css/styles.css"> <!-- rel indica al link que el archivo a incluir es un archivo css, en href incluimos la direccion del archivo -->
+    <!-- Existen tres formas de incuir css en un archivo html, mediante una hoja externa, interna y en linea -->
+    <title>Mi primer página web</title> <!-- Titulo de la pagina <title>titulo...</title>-->
+</head>
+<!-- Todo el contenido de nuestro html se establecera dentro de la etiqueta body de apertura y cierre-->
+<body>
+    <!--
+        Existen etiquetas de:
+        1.Apertura y cierre como: <p></p>, <h1></h1>, <div></div>, etc... que delimitan el area de la misma
+        2.Autoclosing: Son etiquetas que no necesitan cierre y que su contenido esta dentro del atributo, estas son <img src="..." alt="...">, <br>, etc...
+    -->
+    
+    <!-- Para crear headings utilizamos la etiqueta <h1>titulo</h1>. Podemos tener niveles de titulos desde el h1 hasta el h5-->
+    <!-- Para crear parrafos usamos la etiqueta <p>contenido...</p>-->
+    <h1>Titulo principal</h1>
+    <p>Parrafo</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem magni esse quas exercitationem dignissimos quis! Commodi, culpa mollitia eius rem cupiditate tempora id ut natus facilis, maxime reiciendis fuga perferendis.</p>
+    <h2 id="titulo2">Titulo secundario</h2>
+    <p class="resaltado">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque officia architecto, temporibus dolorum quod explicabo dolorem consequatur aspernatur quam! Itaque modi impedit harum nulla pariatur. Quaerat quam ex adipisci officiis!</p>
+    
+    <!--
+        Para colocar imagenes utilizamos la etiqueta IMG de autoclosing-tag.
+        - Mediante el atributo src establecemos la direccion de donde se aloja la imagen
+        - Con el atributo alt establecemos un texto alternativo que se mostrara cuando la imagen no pueda ser cargada, utilizar el alt es una buena practica ya que los lectores de pantalla lo utilizan para decirle a personas no videntes que imagen se les esta presentando
+    -->
+    <img width="250" height="300" src="./images/goku.jpg" alt="foto de goku">
+
+    <!--
+        Como generar una lista en html:
+        
+        Para crear una lista debemos utilizar el elemento ul de apertura y cierre <ul></ul> (unordered list) y <ol></ol> (ordered list)
+        - Dentro de estas listas ordenados o desordenados utilizamos anidado un elemento <li></li>
+    -->
+    <p>Personajes de dragon ball del más fuerte al más debil</p>
+    <ol>
+        <li>Goku ssj god</li>
+        <li>Vegeta ssj god</li>
+        <li>Piccolo</li>
+    </ol>
+
+    <p>Personajes de peliculas de dragon ball sin orden</p>
+    <ul>
+        <li>Dragon ball battle of gods</li>
+        <li>Dragon ball Janemba</li>
+        <li>Dragon ball Tapion</li>
+    </ul>
+
+    <!--
+        Caracteres especiales en HTML:
+        - Existen caracteres que generar conflicto a la hora de utilizarlos ya que se utilizan como parte de un elemento html
+        - Para ello utilizamos caracteres especiales
+        por ejemplo:
+        &lt - <
+        &gt - >
+        &amp - &
+        &quot - "
+        &copye - copy
+    -->
+
+    <p>
+        &copy; derechos reservados - Mateo Alonso
+    </p>
+    <p>
+        (2+y&lt;x*3);
+    </p>
+</body>
+</html>

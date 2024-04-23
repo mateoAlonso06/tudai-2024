@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Lista de navegacion con divs -->
+    <div class="encabezado">
+        <div class="logo-container">
+            <p>Mis noticias</p>
+        </div>
+        <div class="links-container">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Contactos</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!--
+        En html y css para poder estructurar nuestras paginas web utilizamos el modelo de cajas conocido como Box model
+        - Este modelo de caja plantea que las estructuras html estan representadas por cajas rectangulares
+        - Estas cajas rectangulares poseen un content-width y height, como así tambien propiedades como margin, padding y border
+        - Para calcular la suma de todo el width y un height de un elemento se calculan tanto la suma de ambos lados respectivamente de contenido, padding, margin y border
+
+    -->
+    <h1 class="heading centralize">Box model</h1>
+    <p class="centralize">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi tempora assumenda nobis odit ipsa quibusdam.Ut quibusdam qui numquam, accusamus repellendus nesciunt explicabo officiis necessitatibus facere est at, veniam labore!</p>
+
+    <!--
+        Contenedores
+        - Existen los elementos de apertura y cierre <span></span> y <div></div>
+        - No poseen significado semantico
+
+        Div
+        - Elemento de bloque
+        - Ayuda a construir el layout y el diseño
+        - Se pueden anidar multiples divs
+
+        Span
+        - Elemento "inline"
+        - Usado para agrupar texto, palabras o frases.
+        Ejemplo: Un uso frecuente seria para resaltar una palabra o darle formato dentro de un parrafo
+    -->
+    <h2 class="heading centralize">Layout con Flex-Box</h2>
+
+    <div class="container">
+        <p class="centralize p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi <span>SOY UN SPAN</span> nobis odit ipsa quibusdam. Ut quibusdam qui numquam, accusamus repellendus nesciunt explicabo officiis necessitatibus facere est at, veniam labore!</p>
+        <p class="centralize p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi tempora assumenda nobis odit ipsa quibusdam. Ut quibusdam qui numquam, accusamus repellendus nesciunt explicabo officiis necessitatibus facere est at, veniam labore!</p>
+        <p class="centralize p3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi tempora assumenda nobis odit ipsa quibusdam. Ut quibusdam qui numquam, accusamus repellendus nesciunt explicabo officiis necessitatibus facere est at, veniam labore!</p>
+        <p class="centralize p4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi tempora assumenda nobis odit ipsa quibusdam. Ut quibusdam qui numquam, accusamus repellendus nesciunt explicabo officiis necessitatibus facere est at, veniam labore!</p>
+        <p class="centralize p5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi tempora assumenda nobis odit ipsa quibusdam. Ut quibusdam qui numquam, accusamus repellendus nesciunt explicabo officiis necessitatibus facere est at, veniam labore!</p>
+        <p class="centralize p6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi tempora assumenda nobis odit ipsa quibusdam. Ut quibusdam qui numquam, accusamus repellendus nesciunt explicabo officiis necessitatibus facere est at, veniam labore!</p>
+    </div>
+</body>
+</html>

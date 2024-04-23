@@ -1,0 +1,104 @@
+/*
+    Box model
+
+    - Todos los elementos tienen un alto y ancho heredado
+    - El ancho default de un elemento depende de su tipo
+
+    Elementos de bloque:
+    1. Tienene un ancho default del 100%
+
+    Elementos inline
+    1. Ocupan solo el tamaño de lo que contienen
+    2. No puede tener un tamaño fijo, las propiedades width y height funcionan solo en elementos de bloque
+*/
+body {
+    background: lightcoral;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    width: 100%;
+    margin: 0;
+    padding: 0
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: gray;
+}
+
+ul {
+    list-style: none;
+}
+
+span {
+    color: blue;
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.centralize {
+    background-color: lightblue;
+
+    width: 50%;
+    height: auto;
+
+    padding: 1rem;
+    border: 1px solid black;
+    margin: 2rem auto;
+}
+
+.heading {
+    background-color: lightgreen;
+    text-align: center;
+}
+
+/* Flexbox */
+.container {
+    background-color: lightseagreen;
+    width: 90%;
+    border: 1px solid black;
+    margin: 0 auto 1rem;
+    padding: 1rem 0;
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.container .centralize {
+    margin: 0;
+    width: 20%;
+}
+
+.container .p4 {
+    width: 90%;
+}
+
+/* Creando una barra de navegacion con elementos div */
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightyellow;
+    color: black;
+    border: 1px solid black;
+
+    padding: 0 1rem;
+}
+
+.links-container ul {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-right: 2rem;
+}
+
+/*
+    Elementos flexbox a analizar:
+    1.Flex grow
+    2.Flex shrink
+    3. Flex basis
+*/

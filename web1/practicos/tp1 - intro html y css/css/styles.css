@@ -1,0 +1,58 @@
+body {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0 20px;
+}
+/*Estilos generales*/
+h1 {
+    font-size: 50px;
+    color: red;;
+}
+
+h2 {
+    font-size: 40px;
+    color: black;
+}
+
+h3 {
+    font-size: 30px;
+    color: black;
+}
+
+h4 {
+    color: blue;
+    font-size: 20px;
+}
+
+p {
+    font-size: 25px;
+}
+
+img {
+    width: 600px;
+}
+
+a:hover {
+    color: gray;
+}
+
+/* Estilos propios */
+.sector_diario {
+    font-size: 25px;
+}
+
+.sector_h2 {
+    color: blue;
+}
+
+.span_arg {
+    background-color: aquamarine;
+}
+
+.span_arg2 {
+    background: yellow;
+}
+
+.primer-parrafo {
+    background: aqua;
+}

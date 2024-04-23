@@ -1,0 +1,96 @@
+*,
+*::before,
+*::after
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+hr {
+    width: 90%;
+    margin: 2rem auto;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.8px;
+    background: linear-gradient(135deg, #FFA500, #FF6347);
+}
+
+.contenedor {
+    width: 70%;
+    height: 550px;
+    margin: 2rem auto;
+    text-align: center;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.tareas #tareaInput {
+    width: 50%;
+    height: 50px;
+    font-size: 21px;
+    text-align: center;
+    padding: 0.4rem;
+    border: 2px solid gray;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+}
+
+.tareas #tareaInput:focus {
+    border-color: orange;
+    outline: none;
+}
+
+#btnAgregar {
+    width: 6%;
+    height: 50px;
+    font-size: 21px;
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+#btnAgregar:hover {
+    opacity: 0.5;
+}
+
+.menu-box {
+    width: 90%;
+    height: 300px;
+    margin: 2rem auto 0.3rem;
+    text-align: left;
+    overflow: scroll;
+    /* margin: 0.5rem; */
+}
+
+.menu-box input[type="checkbox"] {
+    width: 10%;
+    height: 20px;
+    border: 1px solid black;
+    margin: 0.5rem;
+    margin-left: 5rem;
+}
+
+.menu-box label {
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+}
+
+#btnLimpiar {
+    display: block;
+    padding: 0.8rem;
+    font-size: 18px;
+    border: none;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 47rem;
+    margin-top: 0.5rem;
+}

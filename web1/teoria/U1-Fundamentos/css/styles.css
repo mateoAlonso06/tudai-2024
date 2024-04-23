@@ -1,0 +1,67 @@
+/*
+    En css existen tres tipos de selectores 
+    1- De tipo
+        p {
+            color: red;
+        }
+
+    2- Clases
+        .parrafo {
+            color: blue;
+        }
+
+    3- Id
+        #parrafo1 {
+            color: yellow;
+        }
+
+    Cada uno de estos archivos posee una especificidad mayor al anterior, en un orden tal que 1.id > 2.clase > 3.tipo
+
+    Colores:
+    Cuando queremos aplicar color en css podemos utilizar:
+    - Hex: #fff
+    - Rgb(red, green, blue): rgb(255, 255, 0)
+    - Nombre de color: blue
+*/
+
+body {
+    font-size: 21px;
+    background: #fff;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* Si el nombre de la font family contiene espacios se introduce dentro de comillas simples o dobles */
+}
+
+p {
+    color: green;
+    text-decoration: underline;
+    /* text-transform: uppercase;
+    text-transform: capitalize; */
+    text-transform: lowercase;
+    text-decoration:  none;
+}
+
+h1,
+h2 {
+    color: blue;
+    font-style: italic;
+}
+
+.resaltado {
+    background-color: greenyellow;
+}
+
+#titulo2 {
+    background-color: skyblue;
+    color: red; 
+}
+
+ul {
+    background: lightcoral;
+    list-style: circle;
+}
+
+ol {
+    background: lightgreen;
+    list-style: georgian;
+}
