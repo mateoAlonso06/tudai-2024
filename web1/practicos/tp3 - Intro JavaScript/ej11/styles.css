@@ -1,0 +1,170 @@
+:root {
+    --bluep: #000758;
+}
+
+*,
+*::before,
+*::after 
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(233, 243, 255);
+}
+
+legend {
+    text-align: center;
+    font-size: 22px;
+    background-color: var(--bluep);
+    width: 80%;
+    color: white;
+    margin: 0 auto;
+    padding: 0.6rem;
+    border-radius: 20px;
+}
+
+input {
+    display: block;
+    width: 90%;
+    padding: 0.7rem;
+    margin: 0.5rem auto;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+input:focus {
+    background-color: rgb(230, 230, 230);
+}
+
+input:first-of-type {
+    margin-top: 2rem;
+}
+
+.contenedor {
+    width: 100%;
+    height: 400px;
+    padding: 1rem;
+    /*Display*/
+    display: flex;
+    gap: 0.5rem;
+}
+
+.formulario {
+    width: 50%;
+    height: auto;
+}
+
+/* Tarjeta personal */
+.contenedor-tarjeta {
+    width: 50%;
+    background-color: azure;
+    background: linear-gradient(to bottom, var(--bluep) 20%, #ffffff 20%);
+    text-align: center;
+    padding: 0.8rem 0;
+    position: relative;
+}
+
+.contenedor h2 {
+    margin-top: 0.5rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.contenedor p {
+    width: 80%;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+    font-style: italic;
+    border: 1px solid gray;
+    border-radius: 20px;
+    background-color: rgb(238, 237, 237);
+}
+
+#span-heading {
+    background-color: skyblue;
+    border-radius: 30px;
+    padding: 0.5rem;
+    color: white;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contenedor-tarjeta p:first-of-type {
+    margin-top: 1.5rem;
+}
+
+.divider {
+    width: 100%;
+    border: 1.5px solid white;
+    height: 10px;
+    background-color: skyblue;
+    margin-top: 0.5rem;
+}
+
+.footer {
+    width: 100%;
+    background-color: var(--bluep);
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+}
+
+.placeholder {
+    color: gray;
+}
+
+.buttonContainer {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.boton {
+    display: block;
+    width: 200px;
+    height: 40px;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    border: 1px solid gray;
+}
+
+.boton:hover {
+    opacity: 0.8;
+}
+
+#estilo1 {
+    background-color: var(--bluep);
+    color: white;
+}
+#estilo2 {
+    background-color: rgb(146, 6, 6);
+    color: white;
+}
+#estilo3 {
+    background-color: brown;
+    color: white;
+}
+
+.estilo1 {
+    background: linear-gradient(to bottom, var(--bluep) 20%, #ffffff 20%);
+}
+.estilo2 {
+    background-color: brown;
+}
+.estilo3 {
+    background: linear-gradient(to bottom, brown 20%, #ffffff 20%);
+}

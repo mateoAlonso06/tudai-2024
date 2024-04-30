@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="ruleta.css" />
+    <title>Ruleta</title>
+  </head>
+  <body>
+    <div class="contenedor-ruleta">
+        <div class="user-data">
+            <div class="text">
+                <h2>Bienvenido al juego de la ruleta!</h2>
+                <label for="betNumber">Ingrese el valor</label>
+                <input type="number" id="betNumber" name="betNumber" min="0" max="36">
+            </div>
+            <div class="color">
+                <p>Elija el color</p>
+                <button id="btnRed" class="boton red">Red</button>
+                <button id="btnGreen" class="boton green">Green</button>
+                <button id="btnBlack" class="boton black">Black</button>
+                <button class="boton play" id="btnPlay">Jugar</button>
+            </div>
+
+        </div>
+        <div class="tablero">
+            <div class="interior-ruleta">
+                <div class="resultado">
+                    <div id="resultadoNumerico" class="resultadoNumerico">
+
+                    </div>
+                    <div id="resultadoNumerico" class="resultadoColor">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="ruleta.js"></script>
+  </body>
+</html>

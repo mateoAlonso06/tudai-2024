@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+    <style>
+    </style>
+</head>
+<body>
+    <div class="container">
+        <input id="number1" type="number">
+        <input id="number2" type="number">
+        <select name="operacion" id="operacion">
+            <option value="suma" selected>Suma</option>
+            <option value="resta">Resta</option>
+            <option value="multiplicacion">Multiplicacion</option>
+            <option value="division">Division</option>
+            <option value="resto">Resto</option>
+        </select>
+        <textarea name="resultado" id="resultado" cols="50" rows="3" readonly>
+
+        </textarea>
+        <button id="btncalcular">Calcular</button>
+    </div>
+    <script src="calculadorabasica.js"></script>
+</body>
+</html>

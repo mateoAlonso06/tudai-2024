@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tarjeta personal</title>
+</head>
+<body>
+    <div class="contenedor">
+        <form action="" class="formulario">
+            <legend>Complete con sus datos personales</legend>
+            <input class="inputForm" type="text" name="nombre" id="nombre" placeholder="aqui va su nombre" required/>
+            <input class="inputForm" type="text" name="apellido" id="apellido" placeholder="aqui va su apellido" required/>
+            <input class="inputForm" type="text" name="profesion" id="profesion" placeholder="aqui va su profesion" required/>
+            <input class="inputForm" type="email" name="correo" id="correo" placeholder="aqui va su correo" required />
+            <input class="inputForm" type="tel" name="numberPhone" id="numberPhone" placeholder="aqui va su numero de telefono" required />
+            <input class="inputForm" type="text" name="direeccion" id="direccion" placeholder="aqui va su direccion" required />
+        </form>
+        <div class="contenedor-tarjeta">
+            <h2 id=""><span id="span-heading"><span id="tarjetaNombre">Nombre</span> <span id="tarjetaApellido"">Apellido</span></span></h2>
+            <hr class="divider">
+            <p class="placeholder" id="tarjetaProfesion">Profesion</p>
+            <p class="placeholder" id="tarjetaCorreo">Direccion de correo</p>
+            <p class="placeholder" id="tarjetaNumero">Numero de telefono</p>
+            <p class="placeholder" id="tarjetaDireccion">Direccion</p>
+            <div class="footer">
+
+            </div>
+        </div>  
+    </div>
+    <div class="buttonContainer">
+        <button class="boton" id="estilo1">Estilo 1</button>
+        <button class="boton" id="estilo2">Estilo 2</button>
+        <button class="boton" id="estilo3">Estilo 3</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
