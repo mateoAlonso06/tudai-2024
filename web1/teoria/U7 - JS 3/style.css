@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor {
+    width: 70%;
+    padding: 1rem;
+    margin: 1rem auto;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: white;
+}
+
+input, button {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    outline: none;
+    text-align: center;
+}
+
+button {
+    width: 50%;
+    margin: 1rem auto;
+}
+
+.item {
+    color: blue;
+    padding: 0.2rem;
+    background-color: lightcoral;
+    margin: 1rem;
+}

@@ -1,0 +1,24 @@
+p { color: blue;}
+.destacada { color:green;}
+p.destacada { color:red;}
+
+<p class='destacada' id='unico'> Este es un párrafo</p>
+
+Esta colision se resuelve por especificidad dado que ya estamos diciendo que seleccione los elementos p con la clase destacada por lo que posee mayor importancia que el simple hecho de llamar a la clase
+
+
+.titular { color: red;}
+.verde {color: green}
+
+<h1 class="titular verde">Nuevo título</h2>
+
+Esta colision se resuelve simplemente por cascada dado que un elemento html posee dos clases distintas
+pero cada una de ellas asigna una misma propiedad con el mismo valor de especificidad por lo que el browser lo resuelve mediante la cascada
+
+h1.titular { color: red;}
+.verde {color: green}
+h1 { color: blue !important;}
+
+<h1 class="titular verde">Nuevo título</h2>
+
+Esta colision se da al establecer que el elemento h1 tiene un color azul con la propiedad !important que tiene mayor relevancia que cualquier otra

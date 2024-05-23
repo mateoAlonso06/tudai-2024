@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 7</title>
+    <style>
+        p {
+            margin: 1rem;
+            padding: 0.5rem;
+            background-color: lightcoral;
+            width: 50%;
+        }
+
+        p.resultado {
+            background-color: lightgreen;
+        }
+
+        button {
+            display: block;
+            padding: 0.5rem;
+            background-color: lightslategrey;
+            color: white;
+            font-size: 15px;
+            margin: 1rem;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <!-- crear tres botones que permitan contar elementos en una pagina -->
+    <button id="contadorParrafos">Boton 1</button>
+    <p class="resultado">Hay: <span id="cantidadParrafos"></span> parrafos</p>
+    
+    <button id="contadorItems">Boton 2</button>
+    <p class="resultado">Hay: <span id="cantidadItems"></span> items en la lista</p>
+
+    <button id="contadorNoticias">Boton 3</button>
+    <p class="resultado">Hay: <span id="cantidadNoticias"></span> de divs con la clase noticia</p>
+
+    <div class="contenedorParrafos">
+        <p>Soy un parrafo</p>
+        <p>Soy un parrafo</p>
+        <p>Soy un parrafo</p>
+        <p>Soy un parrafo</p>
+        <p>Soy un parrafo</p>
+    </div>
+
+    <div class="contenedorLista">
+        <ul id="lista-menu">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+        </ul>
+    </div>
+
+    <div class="contenedorDivs">
+        <div class="noticia"></div>
+        <div class="noticia"></div>
+        <div class="noticia"></div>
+        <div class="noticia"></div>
+        <div class="noticia"></div>
+        <div class="noticia"></div>
+        <div class="noticia"></div>
+        <div class="noticia"></div>
+    </div>
+
+    <script src="ejercicio7.js"></script>
+</body>
+</html>

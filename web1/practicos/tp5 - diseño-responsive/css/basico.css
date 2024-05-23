@@ -1,0 +1,81 @@
+/*
+Lista de breakpoints:
+    Extra pequeño (Extra Small / XS): Menos de 576px de ancho.
+    Pequeño (Small / SM): 576px o más.
+    Mediano (Medium / MD): 768px o más.
+    Grande (Large / LG): 992px o más.
+    Extra grande (Extra Large / XL): 1200px o más.
+    Extra-extra grande (Extra Extra Large / XXL): 1400px o más.
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Le damos un tamaño en porcentaje a la fuente en el elemento raiz*/
+html {
+    font-size: 62.5%;
+}
+
+/*
+    De esta manera podremos utilizar unidades de medida rem que son relativos al elemento raiz propiamente dicho
+    con el equivalente a 1 rem = 10px. De esta forma podremos utilizar una unidad de media que se adapta mejor a las
+    pantallas y su escabilidad que utilizando unidades de medida fijas
+*/
+
+/*Mobile first*/
+body {
+    background-color: blue;
+    font-size: 1.6rem;
+}
+
+/*Tablet*/
+@media (width >= 576px) {
+    body {
+        background-color: red;
+    }
+}
+
+/*Pantallas chicas*/
+@media (width >= 768px) {
+    body {
+        background-color: brown;
+    }
+}
+
+/*Monitor chico*/
+@media (width >= 1200px) {
+    body {
+        background-color: pink;
+    }
+}
+
+/*Monitor grande*/
+@media (width >= 1400px) {
+    body {
+        background-color: aqua;
+    }
+}
+
+.heading {
+    font-size: 3rem;
+}
+
+@media (width >= 768px) {
+    .heading {
+        font-size: 5rem;
+    }
+}
+
+@media (width >= 1366px) {
+    .heading {
+        font-size: 8rem;
+    }
+}
+
+@media (width >= 1400px) {
+    .heading {
+        font-size: 10rem;
+    }
+}

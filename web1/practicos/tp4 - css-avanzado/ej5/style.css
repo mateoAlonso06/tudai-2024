@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Para todos los elementos eliminamos el padding y el margin por defecto*/
+
+body {
+    background-color: lightgreen;
+    font-size: 21px;
+    font-family: Verdana;
+}
+
+/*Heredamos del body tanto el font-family como el font-size, ademas de un background color que luego sera superpuesto*/
+
+h1 {
+    font-size: 30px;
+    background-color: violet;
+    padding: 1rem;
+}
+
+.contenedor {
+    width: 80%;
+    height: auto;
+    margin: 4rem auto;
+    background-color: lightcoral;
+    border: 1px solid black;
+    text-align: center;
+}
+
+/*Los elementos hijos de .contenedor heredan tanto el background color, como la alineacion del texto*/
+
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+/*Los elementos dentro de mi div .content heredan tanto el acomodarse respecto al display tambien como el color*/
+
+.left-side {
+    background-color: lightskyblue;
+    width: 50%;
+}
+
+.right-side {
+    background-color: lightslategrey;
+    width: 50%;
+}
+
+.left-side,
+.right-side {
+    padding: 1rem;
+}

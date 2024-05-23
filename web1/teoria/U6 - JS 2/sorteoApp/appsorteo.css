@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    display: block;
+    width: 20%;
+    padding: 0.3rem;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    borde-radius: 10px;
+}
+
+input {
+    outline: none;
+}
+
+.container {
+    width: 90%;
+    height: 100vh;
+    border: 1px solid black;
+    margin: 1rem auto;
+    background-color: lightblue;
+}
+
+.first-part {
+    width: 95%;
+    margin: 1rem auto 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.second-part {
+    height: 15%;
+}
+
+.second-part button {
+    width: 95%;
+    margin: 1rem auto;
+}
+
+.lista {
+    border: 1px solid black;
+    margin: 0 auto;
+    height: 70%;
+    width: 95%;
+    overflow: scroll;
+    background-color: white;
+}

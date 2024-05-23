@@ -1,0 +1,26 @@
+.container .child1 {
+  background-color: inherit;
+}
+.container {
+  background-color: black;
+  color: white;
+}
+#middle {
+  color: blue;
+}
+.child1 {
+  background-color: red;
+  color: yellow;
+}
+
+/*
+A pesar de que a ultimo se aplica una propiedad de bakcground color en red a .child1
+se podria creer que por cascada se esta sobrescribiendo la regla anterior pero la primera al poseer mayor especificidad
+aplica por una cuestion de esta misma por lo que solo reasignamos el color del texto, ya que es más especifica la clase de un elemento
+en particular, que el id que posee su contenedor padre
+
+Por lo tanto:
+1-Texto 1 tendra color amarillo
+2-Los demas textos tendran el color azul
+3-Todos los elementos heredan el background color de su padre contenedor: black
+*/

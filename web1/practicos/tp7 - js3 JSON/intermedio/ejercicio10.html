@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: lightblue;
+        }
+
+        button {
+            display: block;
+            padding: 0.4rem;
+            font-size: 15px;
+            background-color: skyblue;
+            border: 1px solid white;
+            cursor: pointer;
+            margin: 1rem 0;
+        }
+
+        table, tr, td, th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 0.4rem;
+        }
+
+        label {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div id="div-container" class="contenedor">
+        <form id="form" action="">
+            <label for="nombre-equipo">Nombre del equipo:</label>
+            <input type="text" id="nombre-equipo" name="nombre-equipo" />
+
+            <label for="puntos">Puntos:</label>
+            <input type="number" min="0" id="puntos" name="puntos" />
+
+            <label for="pj">Partidos jugados</label>
+            <input type="number" id="pj" name="pj" />
+
+            <label for="pp">Partidos perdidos</label>
+            <input type="number" id="pp" name="pp" />
+
+            <label for="pp">Partidos empatados</label>
+            <input type="number" id="pe" name="pe" />
+            <button id="btnAgregar" type="button">Agregar equipo</button>
+        </form>
+        <table id="tabla">
+        </table>
+    </div>
+    <button id="btnRecorrer">Imprimir Tablas</button>
+    <script src="ejercicio10.js"></script>
+</body>
+</html>

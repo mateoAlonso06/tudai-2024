@@ -1,0 +1,26 @@
+.contenedor {
+    width: 400px;
+    height: 400px;
+    border: 1px solid gray;
+    position: relative;
+    display: flex;
+}
+
+.contenedor::before,
+.contenedor::after {
+    position: absolute;
+    width: 33.33%;
+    height: 100%;
+}
+
+.contenedor::before {
+    content: "";
+    left: 0;
+    background-color: blue;
+}
+
+.contenedor::after {
+    content: "";
+    right: 0;
+    background-color: red;
+}

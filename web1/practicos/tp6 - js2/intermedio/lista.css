@@ -1,0 +1,53 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 21px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contenedor {
+    border: 1px solid black;
+    width: 90%;
+    margin: 1rem auto;
+    text-align: center;
+    background-color: rgb(0, 0, 117);
+    color: white;
+}
+
+input {
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+    padding: 1rem;
+    outline: none;
+    text-align: center;
+    font-size: 18px;
+}
+
+.boton {
+    display: block;
+    width: 8rem;
+    padding: 0.5rem;
+}
+
+.botonera {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.contenedorLista {
+    width: 95%;
+    height: 300px;
+    background-color: white;
+    border: 1px solid black;
+    margin: 1rem auto;
+    text-align: left;
+    overflow-y: scroll;
+    color: black;
+}
+
+ul {
+    list-style: decimal;
+}

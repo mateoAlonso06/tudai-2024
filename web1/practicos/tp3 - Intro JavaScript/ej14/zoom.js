@@ -9,9 +9,7 @@ image.addEventListener("mouseout", function() {
 })
 
 function ZoomIn(image) {
-    // obtner el ancho y alto de la imagen
-
-
+    // obtener el ancho y alto de la imagen
     let width = image.clientWidth;
     let height = image.clientHeight;
 

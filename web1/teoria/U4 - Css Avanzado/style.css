@@ -1,0 +1,43 @@
+/* Selector universal 
+
+Nos permite modificar todos los elementos html
+
+*/
+* {
+    background-color: #fff;
+    color: black;
+    font-size: 21px;
+}
+
+/*
+Herencia:
+- Es el mecanismo mediante el cual determinadas propiedades de un elemento padre se transmiten a sus hijos
+- No todas las propiedades css son heredadas, porque algunas de ellas no tendrian sentido que asi fueran,
+por ejemplo las relacionadas con el tamaño de los elementos, etc..-
+*/
+
+.contenedor {
+    background-color: green;
+}
+/* el div primer-hijo hereda el background color de .contenedor, elemento padre */
+.primer-hijo {
+    color: black; 
+}
+
+/*Selectores combinados*/
+
+/*Selecciona a todos los parrafos que contienen la clase "destacado"*/
+p.destacado {
+    background-color: lightgreen;
+    color: red;
+    padding: 0.5rem;
+}
+
+/*Anidamientos de selectores*/
+.contenedor .primer-hijo > .tercer-parrafo {
+    background-color: lightblue;
+    padding: 0.5rem;
+    color: green;;
+}
+
+/*Para que funcione .tercer-parrafo tiene que ser un hijo directo de .primer-hijo*/

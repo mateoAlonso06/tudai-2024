@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 21px;
+}
+
+li {
+    list-style: none;
+}
+
+.contenedor-indice {
+    width: 70%;
+    height: 500px;
+    margin: 2rem auto;
+    text-align: center;
+    background-color: rgb(231, 213, 188);
+    border-radius: 5px;
+}
+
+.contenedor-indice li {
+    margin: 1rem;
+    display: flex;
+    justify-content: space-evenly
+}
+
