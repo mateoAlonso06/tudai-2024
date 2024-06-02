@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .destacado {
+            color: red;
+        }
+    </style>
+    <title>Parcial 1</title>
+</head>
+<body>
+    <div class="container">
+        <form id="formulario-alumnos">
+            <input type="text" name="nombre" id="nombre" placeholder="nombre del alumno: " required />
+            <input type="number" name="calificacion" id="calificacion" placeholder="calificacion del alumno:" min="1" max="10" required />
+            <button type="submit" id="btn-agregar">Agregar</button>
+        </form>
+        <button type="button" id="btn-mostrar">Mostrar Alumnos</button>
+        <ul id="resultado-alumnos">
+            
+        </ul>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

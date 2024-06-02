@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    border: 1px solid black;
+    margin: 1rem auto;
+}
+
+.container section {
+    width: 100%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+@media (width >= 1024px) {
+    .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 75%;
+    }
+
+    .container section {
+        width: 50%;
+    }
+
+    .container .uno {
+        width: 100%;
+    }
+}
